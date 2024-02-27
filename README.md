@@ -106,4 +106,4 @@ Welcome to our online car rental service! Our platform provides a convenient way
     - The CarQuery API is utilized in the website's admin panel when adding a new car. By providing the make, model, and year of the vehicle, the API automatically retrieves relevant data such as engine specifications, dimensions, and other details, simplifying the process of adding new cars to the platform.
 
 # Website Deployment on Vercel 
-  - carsharing-steel.vercel.app
+  - [carsharing-steel.vercel.app](https://carsharing-steel.vercel.app/)https://carsharing-steel.vercel.app/
