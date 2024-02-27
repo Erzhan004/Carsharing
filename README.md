@@ -104,3 +104,6 @@ Welcome to our online car rental service! Our platform provides a convenient way
     - /api/0.3/?cmd=getTrims: Users can fetch detailed information about vehicle trims based on the specified criteria, such as year, make, and model.
   - Usage in the Website:
     - The CarQuery API is utilized in the website's admin panel when adding a new car. By providing the make, model, and year of the vehicle, the API automatically retrieves relevant data such as engine specifications, dimensions, and other details, simplifying the process of adding new cars to the platform.
+
+# Website Deployment on Vercel 
+  - carsharing-steel.vercel.app
