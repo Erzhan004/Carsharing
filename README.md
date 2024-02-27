@@ -85,7 +85,7 @@ Welcome to our online car rental service! Our platform provides a convenient way
     - Image Retrieval: Many articles come with accompanying images, enhancing the visual experience for users.
   -Endpoints:
 
-    -/v2/everything: This endpoint allows users to search for news articles based on specific criteria, such as keywords, sources, language, and publication date.
-    -/v2/top-headlines: Users can fetch top headlines from various sources and categories.
-  -Usage in the Website:
-    -The News API is integrated into the website to provide users with the latest news and updates in the automotive industry. Users can access the news page, where they can browse and read articles fetched from the News API.
+    - /v2/everything: This endpoint allows users to search for news articles based on specific criteria, such as keywords, sources, language, and publication date.
+    - /v2/top-headlines: Users can fetch top headlines from various sources and categories.
+  - Usage in the Website:
+    - The News API is integrated into the website to provide users with the latest news and updates in the automotive industry. Users can access the news page, where they can browse and read articles fetched from the News API.
