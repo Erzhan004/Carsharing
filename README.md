@@ -73,3 +73,19 @@ Welcome to our online car rental service! Our platform provides a convenient way
 ## Acknowledgement
 - **Unawareness of Multer Limitation:** I sincerely apologize for not being aware of this limitation regarding Multer's functionality in non-local environments. This oversight on my part may have caused inconvenience during the development process. Moving forward, I will strive to better understand and account for such limitations to ensure smoother development and deployment processes in the future. Thank you for your understanding.
 
+# External API Integration Overview
+## 1. News API (https://newsapi.org)
+  - Purpose: The News API provides access to a vast collection of news articles from various sources, allowing users to stay updated on current events and trends in the automotive industry.
+
+  - Features:
+
+    - Search Functionality: Users can search for news articles using keywords related to automobiles.
+    - Language Support: The API supports multiple languages, allowing users to access news articles in their preferred language.
+    - Article Metadata: Each article includes metadata such as title, author, publication date, and source.
+    - Image Retrieval: Many articles come with accompanying images, enhancing the visual experience for users.
+  -Endpoints:
+
+    -/v2/everything: This endpoint allows users to search for news articles based on specific criteria, such as keywords, sources, language, and publication date.
+    -/v2/top-headlines: Users can fetch top headlines from various sources and categories.
+  -Usage in the Website:
+    -The News API is integrated into the website to provide users with the latest news and updates in the automotive industry. Users can access the news page, where they can browse and read articles fetched from the News API.
