@@ -42,3 +42,14 @@ Welcome to our online car rental service! Our platform provides a convenient way
 - **GET '/admin/delete/order/:id'**: Handles requests to delete an order.
 - **POST '/admin/add/car'**: Handles requests to add a new car.
 - **POST '/admin/add'**: Handles requests to add a new user.
+
+## Middleware Used
+
+- **cookieJwtAuth**: Middleware for user authentication using JWT tokens stored in cookies.
+- **isAdmin**: Middleware to check if the user is an admin.
+
+## Additional Notes
+
+- Multer is used for handling file uploads for car images.
+- NewsAPI is used to fetch news articles based on the selected language.
+- bcrypt is used for password hashing.
