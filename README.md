@@ -53,3 +53,23 @@ Welcome to our online car rental service! Our platform provides a convenient way
 - Multer is used for handling file uploads for car images.
 - NewsAPI is used to fetch news articles based on the selected language.
 - bcrypt is used for password hashing.
+
+## Note on Multer Usage
+
+- **Multer Limitation**: The program relies on Multer for handling file uploads of car images. However, Multer cannot function properly if the application is not running locally due to its dependency on the local file system.
+
+## Steps to Run Locally
+
+1. **Clone the Repository**: Clone the repository containing the project code from GitHub.
+
+2. **Install Dependencies**: Navigate to the project directory and run `npm install` to install all project dependencies.
+
+3. **Start the Local Server**: Use the command `npm start` to start the local server. This will launch the Express.js backend, allowing you to access the application locally.
+
+4. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` to access the application running on your local server.
+
+5. **Testing File Uploads**: Since Multer relies on the local file system, you can now test the file upload functionality by uploading car images through the application interface.
+
+## Acknowledgement
+- **Unawareness of Multer Limitation:** I sincerely apologize for not being aware of this limitation regarding Multer's functionality in non-local environments. This oversight on my part may have caused inconvenience during the development process. Moving forward, I will strive to better understand and account for such limitations to ensure smoother development and deployment processes in the future. Thank you for your understanding.
+
