@@ -107,3 +107,11 @@ Welcome to our online car rental service! Our platform provides a convenient way
 
 # Website Deployment on Vercel 
   - [carsharing-steel.vercel.app](https://carsharing-steel.vercel.app/)https://carsharing-steel.vercel.app/
+
+# Test users
+ - UserAdmin:
+   - Name : Erzhan
+   - Password : 161291
+ - User:
+   - Name : Test
+   - Password : 161291
