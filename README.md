@@ -89,3 +89,18 @@ Welcome to our online car rental service! Our platform provides a convenient way
     - /v2/top-headlines: Users can fetch top headlines from various sources and categories.
   - Usage in the Website:
     - The News API is integrated into the website to provide users with the latest news and updates in the automotive industry. Users can access the news page, where they can browse and read articles fetched from the News API.
+
+## 2. CarQuery API (https://www.carqueryapi.com)
+  - Purpose: The CarQuery API is a comprehensive database of automotive specifications and data, providing detailed information about vehicles based on their make, model, and year.
+
+  - Features:
+
+    - Vehicle Data: The API offers extensive information about vehicles, including specifications such as engine type, transmission, dimensions, weight, and more.
+    - Search Functionality: Users can search for vehicle data by specifying the make, model, and year of the vehicle.
+    - JSON Response: The API returns data in JSON format, making it easy to parse and integrate into web applications.
+  - Endpoints:
+
+    - /api/0.3: This endpoint serves as the base URL for accessing various resources and endpoints provided by the CarQuery API.
+    - /api/0.3/?cmd=getTrims: Users can fetch detailed information about vehicle trims based on the specified criteria, such as year, make, and model.
+  - Usage in the Website:
+    - The CarQuery API is utilized in the website's admin panel when adding a new car. By providing the make, model, and year of the vehicle, the API automatically retrieves relevant data such as engine specifications, dimensions, and other details, simplifying the process of adding new cars to the platform.
