@@ -20,3 +20,25 @@ Technical Details:
   - Backend: Node.js (Express.js)
   - Database: MongoDB
   - Authentication and Authorization: JSON Web Tokens (JWT)
+
+## Routes Overview
+
+- **GET '/'**: Renders the sign-in page.
+- **GET '/Cars'**: Renders the page with available cars for rent.
+- **GET '/news/:lang'**: Fetches and renders news articles based on the selected language.
+- **GET '/carPage/:id'**: Renders the page with details of a specific car.
+- **GET '/order'**: Renders the page with orders placed by users.
+- **GET '/signup'**: Renders the sign-up page.
+- **GET '/signin'**: Renders the sign-in page.
+- **POST '/signup'**: Handles user sign-up requests.
+- **POST '/signin'**: Handles user sign-in requests.
+- **GET '/admin'**: Renders the admin dashboard.
+- **GET '/admincar'**: Renders the admin page for car management.
+- **GET '/admin/edit/:id'**: Renders the page for editing user details.
+- **POST '/admin/edit/:id'**: Handles requests to edit user details.
+- **POST '/admin/edit/car/:id'**: Handles requests to edit car details.
+- **GET '/admin/delete/:id'**: Handles requests to delete a user.
+- **GET '/admin/delete/car/:id'**: Handles requests to delete a car.
+- **GET '/admin/delete/order/:id'**: Handles requests to delete an order.
+- **POST '/admin/add/car'**: Handles requests to add a new car.
+- **POST '/admin/add'**: Handles requests to add a new user.
