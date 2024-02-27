@@ -14,3 +14,9 @@ Features:
     - Car and User Information: Administrators have access to data on available cars and registered users.
     - User and Car Management: Administrators can delete and modify user and car data.
     - Orders Page: Administrators can view incoming orders and manage them.
+
+Technical Details:
+  - Frontend: HTML, CSS, JavaScript
+  - Backend: Node.js (Express.js)
+  - Database: MongoDB
+  - Authentication and Authorization: JSON Web Tokens (JWT)
