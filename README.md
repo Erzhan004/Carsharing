@@ -2,7 +2,7 @@
 
 Welcome to our online car rental service! Our platform provides a convenient way to select and rent cars, as well as access to the latest news in the automotive industry.
 
-Features:
+## Features:
   - Car Selection and Rental: Users can browse available cars, select a suitable one, and rent it for the desired period.
 
   - News Page: Users have access to the latest news in the automotive industry, allowing them to stay informed about events and trends.
@@ -15,7 +15,7 @@ Features:
     - User and Car Management: Administrators can delete and modify user and car data.
     - Orders Page: Administrators can view incoming orders and manage them.
 
-Technical Details:
+## Technical Details:
   - Frontend: HTML, CSS, JavaScript
   - Backend: Node.js (Express.js)
   - Database: MongoDB
