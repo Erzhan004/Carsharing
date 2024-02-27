@@ -7,6 +7,7 @@ const cookieParser = require("cookie-parser");
 
 app.use(express.static(__dirname + '/public'));
 // app.use(passport.initialize())
+app.set('views',path.join(process.cwd(), 'views'));
 
 // require('./public/javascripts/passport')(passport)
 app.use(cookieParser());
