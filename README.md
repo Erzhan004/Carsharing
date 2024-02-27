@@ -2,7 +2,7 @@
 
 Welcome to our online car rental service! Our platform provides a convenient way to select and rent cars, as well as access to the latest news in the automotive industry.
 
-1. Features:
+Features:
   - Car Selection and Rental: Users can browse available cars, select a suitable one, and rent it for the desired period.
 
   - News Page: Users have access to the latest news in the automotive industry, allowing them to stay informed about events and trends.
